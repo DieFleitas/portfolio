@@ -5,51 +5,44 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 
 const Technologies = () =>  (
   <Section id="tech">
-    <SectionDivider divider />
+    <SectionDivider/>
+    <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit rem consequatur possimus placeat optio ab est deleniti porro eos quos.
     </SectionText>
     <List>
       <ListItem>
-        <picture>
-          <DiReact size="3rem" />
-        </picture>
+        <DiReact size="3rem" />
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Front-end</ListTitle>
           <ListParagraph>
-            Experiece with <br />
+            Experience with <br/>
             React.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <picture>
-          <DiFirebase size="3rem" />
-        </picture>
+        <DiFirebase size="3rem" />
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>Back-end</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node and Databases
+            Experience with <br/>
+            Node and Databases 
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <picture>
-          <DiZend size="3rem" />
-        </picture>
+        <DiZend size="3rem" />
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            tools like Figma
+            Experience with <br/>
+            Figma and AdobeXD
           </ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
-    <SectionDivider colorAlt />
   </Section>
 );
 
