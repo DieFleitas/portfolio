@@ -5,7 +5,7 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 
 const Technologies = () =>  (
   <Section id="tech">
-    <SectionDivider/>
+    <SectionDivider divider/>
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
@@ -13,7 +13,9 @@ const Technologies = () =>  (
     </SectionText>
     <List>
       <ListItem>
+        <picture>
         <DiReact size="3rem" />
+        </picture>
         <ListContainer>
           <ListTitle>Front-end</ListTitle>
           <ListParagraph>
@@ -23,7 +25,9 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
       <ListItem>
+        <picture>
         <DiFirebase size="3rem" />
+        </picture>
         <ListContainer>
           <ListTitle>Back-end</ListTitle>
           <ListParagraph>
@@ -33,7 +37,9 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
       <ListItem>
+        <picture>
         <DiZend size="3rem" />
+        </picture>
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
@@ -43,6 +49,7 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
     </List>
+    <SectionDivider colorAlt/>
   </Section>
 );
 
